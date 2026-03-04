@@ -1,0 +1,15 @@
+L0:
+hot = a + 7
+t0 = hot + 1
+if t0 goto L1 else L2
+L1:
+x = hot + 2
+y = x + hot
+goto L3
+L2:
+x = hot + 3
+y = x + hot
+goto L3
+L3:
+z = y + t0
+return z

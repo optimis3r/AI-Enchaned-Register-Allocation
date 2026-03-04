@@ -1,0 +1,25 @@
+L0:
+i = a + 0
+j = b + 0
+acc = 0 + 0
+p0 = c + 7
+goto L1
+L1:
+if i goto L2 else L9
+L2:
+t0 = p0 + i
+goto L3
+L3:
+if j goto L4 else L7
+L4:
+x0 = t0 + j
+x1 = x0 + p0
+acc = acc + x1
+j = j - 1
+goto L3
+L7:
+j = b + 0
+i = i - 1
+goto L1
+L9:
+return acc

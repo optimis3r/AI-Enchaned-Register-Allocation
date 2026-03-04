@@ -1,0 +1,19 @@
+L0:
+i = a + 0
+acc0 = 0 + 0
+acc1 = 0 + 0
+k0 = b + 3
+k1 = c + 4
+goto L1
+L1:
+if i goto L2 else L5
+L2:
+t0 = acc0 + k0
+acc0 = t0 + 1
+t1 = acc1 + k1
+acc1 = t1 + 1
+i = i - 1
+goto L1
+L5:
+sum = acc0 + acc1
+return sum

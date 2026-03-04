@@ -1,0 +1,18 @@
+L0:
+t0 = a + 1
+if t0 goto L1 else L2
+L1:
+u0 = b + 10
+if u0 goto L3 else L4
+L2:
+u0 = c + 20
+goto L4
+L3:
+v = u0 + t0
+goto L5
+L4:
+v = u0 + 1
+goto L5
+L5:
+w = v + 2
+return w

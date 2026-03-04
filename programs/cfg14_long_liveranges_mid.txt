@@ -1,0 +1,15 @@
+L0:
+a0 = a + 1
+a1 = a + 2
+a2 = a + 3
+b0 = b + 4
+b1 = b + 5
+b2 = b + 6
+t0 = a0 + b0
+t1 = a1 + b1
+t2 = a2 + b2
+sum = t0 + t1
+sum = sum + t2
+sum = sum + a0
+sum = sum + b2
+return sum

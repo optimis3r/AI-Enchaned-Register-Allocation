@@ -1,0 +1,22 @@
+L0:
+k = a + 1
+p = b + 2
+q = c + 3
+r = p + q
+if k goto L1 else L2
+L1:
+t0 = r + p
+t1 = t0 + q
+t2 = t1 + k
+goto L3
+L2:
+u0 = r + q
+u1 = u0 + p
+u2 = u1 + k
+goto L3
+L3:
+m0 = t2 + u2
+m1 = m0 + r
+m2 = m1 + p
+m3 = m2 + q
+return m3
