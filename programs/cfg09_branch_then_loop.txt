@@ -1,0 +1,20 @@
+L0:
+t0 = a + 1
+if t0 goto L1 else L2
+L1:
+i = b + 0
+goto L3
+L2:
+i = c + 0
+goto L3
+L3:
+acc = 0 + 0
+goto L4
+L4:
+if i goto L5 else L7
+L5:
+acc = acc + t0
+i = i - 1
+goto L4
+L7:
+return acc

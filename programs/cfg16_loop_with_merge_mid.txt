@@ -1,0 +1,21 @@
+L0:
+i = a + 0
+base = b + 5
+acc = 0 + 0
+goto L1
+L1:
+if i goto L2 else L6
+L2:
+t0 = base + i
+if t0 goto L3 else L4
+L3:
+acc = acc + t0
+goto L5
+L4:
+acc = acc + base
+goto L5
+L5:
+i = i - 1
+goto L1
+L6:
+return acc

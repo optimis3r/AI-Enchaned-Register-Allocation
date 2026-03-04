@@ -1,0 +1,14 @@
+L0:
+i = a + 0
+j = b + 0
+acc = 0 + 0
+goto L1
+L1:
+if i goto L2 else L5
+L2:
+acc = acc + j
+i = i - 1
+j = j + 1
+goto L1
+L5:
+return acc

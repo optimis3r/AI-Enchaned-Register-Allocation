@@ -1,0 +1,13 @@
+L0:
+p = a + 1
+q = b + 2
+if p goto L1 else L2
+L1:
+r = p + q
+goto L3
+L2:
+r = q + 5
+goto L3
+L3:
+s = r + 1
+return s

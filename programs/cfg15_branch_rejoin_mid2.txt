@@ -1,0 +1,17 @@
+L0:
+p = a + 1
+q = b + 2
+r = c + 3
+s = p + q
+if s goto L1 else L2
+L1:
+x = s + r
+y = x + p
+goto L3
+L2:
+x = q + r
+y = x + p
+goto L3
+L3:
+z = y + s
+return z

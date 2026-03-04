@@ -1,0 +1,20 @@
+L0:
+v0 = a + 1
+v1 = a + 2
+v2 = a + 3
+v3 = b + 4
+v4 = b + 5
+v5 = b + 6
+v6 = c + 7
+v7 = c + 8
+v8 = c + 9
+t0 = v0 + v3
+t1 = v1 + v4
+t2 = v2 + v5
+t3 = v6 + v7
+t4 = t0 + t1
+t5 = t2 + t3
+sum = t4 + t5
+sum = sum + v8
+sum = sum + v0
+return sum

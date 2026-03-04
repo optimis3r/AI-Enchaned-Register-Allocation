@@ -1,0 +1,24 @@
+L0:
+a0 = a + 1
+b0 = b + 2
+c0 = c + 3
+d0 = a0 + b0
+e0 = b0 + c0
+f0 = c0 + a0
+if d0 goto L1 else L2
+L1:
+x0 = d0 + e0
+x1 = x0 + f0
+x2 = x1 + a0
+goto L3
+L2:
+y0 = e0 + f0
+y1 = y0 + d0
+y2 = y1 + b0
+goto L3
+L3:
+m0 = x2 + y2
+m1 = m0 + a0
+m2 = m1 + b0
+m3 = m2 + c0
+return m3

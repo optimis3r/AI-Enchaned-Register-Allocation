@@ -1,0 +1,24 @@
+L0:
+k = a + 1
+u0 = b + 2
+u1 = c + 3
+if k goto L1 else L2
+L1:
+t0 = u0 + 10
+goto L3
+L2:
+t0 = u1 + 20
+goto L3
+L3:
+if t0 goto L4 else L5
+L4:
+t1 = t0 + u0
+goto L6
+L5:
+t1 = t0 + u1
+goto L6
+L6:
+m0 = t1 + k
+m1 = m0 + u0
+m2 = m1 + u1
+return m2

@@ -1,0 +1,12 @@
+L0:
+c0 = a + 1
+if c0 goto L1 else L2
+L1:
+x = b + 2
+goto L3
+L2:
+x = c + 3
+goto L3
+L3:
+y = x + c0
+return y

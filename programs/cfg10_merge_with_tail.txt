@@ -1,0 +1,14 @@
+L0:
+x0 = a + 1
+x1 = b + 2
+if x0 goto L1 else L2
+L1:
+m = x0 + x1
+goto L3
+L2:
+m = x1 + 3
+goto L3
+L3:
+t = m + x0
+u = t + 1
+return u
